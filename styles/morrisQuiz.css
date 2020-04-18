@@ -22,7 +22,33 @@ p{
 
 audio, img{
   padding: 0px;
-  margin: 10px;
+  margin: 15px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion {
+  background-color: transparent;
+  color: #707070;
+  cursor: pointer;
+  margin: 0px 15px;
+  padding: 5px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+  transition: 0.4s;
+}
+
+.panel {
+  padding: 40px 20px 0px 20px;
+  color: blue;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  font-size: 20px;
 }
 
 .menuSelection{
