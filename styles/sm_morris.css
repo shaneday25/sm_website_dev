@@ -31,3 +31,21 @@
   text-align: center;
 
 }
+
+.sm_line_bottom{
+  border-top: 4px solid yellow; 
+  border-bottom: 4px solid red; 
+}
+
+.sm_line_top{
+  border-top: 4px solid red; 
+  border-bottom: 4px solid yellow; 
+}
+
+.sm_note{
+  font-family: "Brush Script MT", cursive;
+}
+
+.sm_grey_text{
+  color: rgb(109, 108, 108);
+}
